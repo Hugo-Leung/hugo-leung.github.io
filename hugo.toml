@@ -1,0 +1,58 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Ching Him Leung'
+theme = "personal-web"
+copyright="Ching Him Leung"
+
+[params.intro]
+	main = "Hi, I am Ching Him Leung"
+	sub = "Graduate student at University of Illinois Urbana-Champaign"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[params]
+  breadcrumb = true
+  accentColor = "#FD3519"
+	mainSections = ['portfolio']
+
+[params.sidebar]
+	backgroundImage = "/images/sidebar.jpg"
+	logo = "/images/profile.jpg"
+
+[params.social]
+	github = "https://github.com/Hugo-Leung"
+	orcid = "https://orcid.org/0000-0001-7907-3728"
+	googlescholar = "https://scholar.google.com/citations?user=Th7ghh8AAAAJ&hl=en"
+
+
+[menu]
+
+[[menu.main]]
+	identifier = "Research"
+	name = "Research"
+	title = "Research"
+	url = "/research/"
+	weight = -120
+
+[[menu.main]]
+	identifier = "Talks"
+	name = "Talks"
+	title = "Talks"
+	url = "/talks/"
+	weight = -110
+
+[[menu.main]]
+	identifier = "Publications"
+	name = "Publications"
+	title = "Publications"
+	url = "/publications/"
+	weight = -100
+
+[[menu.main]]
+	identifier = "CV"
+	name = "CV"
+	title = "CV"
+	url = "/cv/"
+	weight = -90
