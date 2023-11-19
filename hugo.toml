@@ -15,7 +15,7 @@ copyright="Ching Him Leung"
 [params]
   breadcrumb = true
   accentColor = "#FD3519"
-	mainSections = ['portfolio']
+#	mainSections = ['portfolio']
 
 [params.sidebar]
 	backgroundImage = "/images/sidebar.jpg"
@@ -25,6 +25,7 @@ copyright="Ching Him Leung"
 	github = "https://github.com/Hugo-Leung"
 	orcid = "https://orcid.org/0000-0001-7907-3728"
 	googlescholar = "https://scholar.google.com/citations?user=Th7ghh8AAAAJ&hl=en"
+	inspirehep = "https://inspirehep.net/authors/1926084"
 
 
 [menu]
