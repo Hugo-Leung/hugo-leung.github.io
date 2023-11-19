@@ -5,7 +5,7 @@ theme = "personal-web"
 copyright="Ching Him Leung"
 
 [params.intro]
-	main = "Hi, I am Ching Him Leung"
+	main = "Hi, I am Ching&nbsp;Him&nbsp;Leung"
 	sub = "Graduate student at University of Illinois Urbana-Champaign"
 
 [taxonomies]
