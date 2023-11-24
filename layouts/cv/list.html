@@ -1,0 +1,70 @@
+{{ partial "header" .}}
+{{ $file := .Params.cvdata }}
+{{ $data := getJSON $file}}
+
+  <h1 id="title"> {{ .Title }}</h1>
+	{{ .Content }}
+	{{ if and ($data.employment) (gt ($data.employment | len ) 0) }}
+		<h2>Employment</h2>
+		<ul>
+		{{ range $data.employment }}
+			<li>
+			<h3>{{ .year }}, {{ .company }} </h3>
+			<p><b>{{ .title }}</b></p>
+			{{ if .description }}
+				{{ .description | markdownify}}
+			{{ end }}
+			</details>
+		{{ end }}	
+		</ul>
+	{{ end }}
+	
+	{{ if (gt ($data.education | len ) 0) }}
+		<h2>Education</h2>
+		<ul>
+		{{ range $data.education }}
+			<li>
+			<h3>{{ .degree }}, {{ .school }}, {{ .year }} </h3>
+			{{ if .description }}
+				{{ .description | markdownify}}
+			{{ end }}
+			</li>
+		{{ end }}	
+		</ul>
+	{{ end }}
+	
+	<h2>Research</h2>
+	<ul>
+	{{ range ( where .Site.RegularPages.ByTitle "Section" "research" ) }}
+	   <li>
+		 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+		 <p>{{ .Params.description}}</p>
+		 </li>
+	{{ end }}
+	</ul>
+	<h2>Skills</h2>
+	<h2>Publications</h2>
+	<ul>
+	{{ range ( where .Site.RegularPages.ByDate.Reverse "Section" "publications" ) }}
+	   <li>
+		 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+		 <p>{{ .Params.citation}}</p>
+		 </li>
+	{{ end }}
+	</ul>
+	<h2>Talks</h2>
+	<ul>
+	{{ range ( where .Site.RegularPages.ByDate.Reverse "Section" "talks" ) }}
+	   <li>
+		 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+		 <div class="portfolio-tags">
+			{{ partial "svg" (dict "iconName" "calendar" "size" "18px")}}
+  			<span>{{ time.Format "January 02 2006" .Params.jobDate }}</span>
+			</div>
+		 <p>{{ .Params.citation}}</p>
+		 </li>
+	{{ end }}
+	</ul>
+	<h2>Honors and Awards</h2>
+
+{{ partial "footer" .}}

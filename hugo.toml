@@ -5,7 +5,7 @@ theme = "personal-web"
 copyright="Ching Him Leung"
 
 [params.intro]
-	main = "Hi, I am Ching&nbsp;Him&nbsp;Leung"
+	main = "Hi, I am Ching&nbsp;Him Leung"
 	sub = "Graduate student at University of Illinois Urbana-Champaign"
 
 [taxonomies]
@@ -16,6 +16,7 @@ copyright="Ching Him Leung"
   breadcrumb = true
   accentColor = "#FD3519"
 #	mainSections = ['portfolio']
+#	rendererSafe = true
 
 [params.sidebar]
 	backgroundImage = "/images/sidebar.jpg"
@@ -27,6 +28,8 @@ copyright="Ching Him Leung"
 	googlescholar = "https://scholar.google.com/citations?user=Th7ghh8AAAAJ&hl=en"
 	inspirehep = "https://inspirehep.net/authors/1926084"
 
+[params.assets]
+	favicon = "/favicon.ico"
 
 [menu]
 

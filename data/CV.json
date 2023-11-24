@@ -1,0 +1,19 @@
+{
+	"education" : [
+		{"school": "University of Illinois Urbana-Champaign",
+		 "degree": "Ph.D Physics",
+		 "year" : "2018-2024",
+		 "description": "- Thesis: Probing Parton Distributions in Proton using Drell-Yan and Charmonium Production with 120GeV Proton Beam at Fermilab\n- Advisor: Prof. Jen-Chieh Peng"
+			},
+		{"school": "The Chinese University of Hong Kong",
+		 "degree": "BSc Physics",
+		 "year" : "2014-2018"
+			}
+	],
+	"employment" : [
+		{"company": "Jefferson Lab",
+		 "title" : "Hall C postdoc",
+		 "year" : "2024 - current"
+		}
+	]
+}

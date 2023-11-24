@@ -1,0 +1,6 @@
+{{ $file := .Get "list" }}
+{{ $data := getJSON $file}}
+{{ range $data.education }}
+	<h3>{{ .degree }}, {{ .school }}, {{ .year }} </h3>
+{{ end }}	
+	
