@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://hugo-leung.github.io/'
 languageCode = 'en-us'
 title = 'Ching Him Leung'
 theme = "personal-web"
@@ -9,13 +9,12 @@ copyright="Ching Him Leung"
 	sub = "Graduate student at University of Illinois Urbana-Champaign"
 
 [taxonomies]
-  design = "designs"
-  tech = "techs"
+  tag = "tags"
 
 [params]
   breadcrumb = true
   accentColor = "#FD3519"
-#	mainSections = ['portfolio']
+	mainSections = []
 #	rendererSafe = true
 
 [params.sidebar]
@@ -30,6 +29,11 @@ copyright="Ching Him Leung"
 	email = "mailto:chleung@illinois.edu"
 [params.assets]
 	favicon = "/favicon.ico"
+
+[params.notFound]
+	image = "/images/404.svg"
+	h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
 
 [menu]
 

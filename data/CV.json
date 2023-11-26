@@ -15,5 +15,18 @@
 		 "title" : "Hall C postdoc",
 		 "year" : "2024 - current"
 		}
+	],
+	"award" :[
+		{"name": "Felix T. Adler Award",
+		 "org": "Univ. of Illinois",
+		 "year": "2022",
+		 "url": "https://physics.illinois.edu/people/honors-and-awards/graduate-awards"},
+		{"name": "Maurice Goldhaber Research Scholar Award in Nuclear Physics",
+		 "org": "Univ. of Illinois",
+		 "year": "2020",
+		 "url": "https://physics.illinois.edu/people/honors-and-awards/graduate-awards"}
+	],
+	"skill": [
+		"C++", "SQL", "Python", "Linux", "Apptainer"	
 	]
 }

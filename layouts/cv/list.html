@@ -42,29 +42,38 @@
 		 </li>
 	{{ end }}
 	</ul>
+	{{ if (gt ($data.skill | len) 0) }}
 	<h2>Skills</h2>
+	<ul><p>
+		{{ range $data.skill}}
+			{{ . }} &#20;
+		{{ end }}
+	{{ end }}
+	</p></ul>
 	<h2>Publications</h2>
 	<ul>
 	{{ range ( where .Site.RegularPages.ByDate.Reverse "Section" "publications" ) }}
-	   <li>
-		 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-		 <p>{{ .Params.citation}}</p>
-		 </li>
+		 {{ partial "publications/item" .}}
 	{{ end }}
 	</ul>
 	<h2>Talks</h2>
 	<ul>
 	{{ range ( where .Site.RegularPages.ByDate.Reverse "Section" "talks" ) }}
-	   <li>
-		 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-		 <div class="portfolio-tags">
-			{{ partial "svg" (dict "iconName" "calendar" "size" "18px")}}
-  			<span>{{ time.Format "January 02 2006" .Params.jobDate }}</span>
-			</div>
-		 <p>{{ .Params.citation}}</p>
-		 </li>
+		 {{ partial "talks/item" .}}
 	{{ end }}
 	</ul>
+	{{ if (gt ($data.award | len ) 0) }}
 	<h2>Honors and Awards</h2>
-
+		<ul>
+		{{ range $data.award }}
+		<li>
+			{{ if .url }}
+				<a href="{{ .url }}"}}>{{ .name }}, {{ .org }}, {{ .year }}</a>
+			{{ else }}
+				{{ .name }}, {{ .org }}, {{ .year }}
+			{{ end }}
+		</li>
+		{{ end }}
+		</ul>
+	{{ end }}
 {{ partial "footer" .}}
