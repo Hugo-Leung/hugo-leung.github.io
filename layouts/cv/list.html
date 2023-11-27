@@ -50,18 +50,30 @@
 		{{ end }}
 	{{ end }}
 	</p></ul>
-	<h2>Publications</h2>
+	{{ $publist := (where .Site.RegularPages.ByDate.Reverse "Section" "publications") }}
+	{{ if (gt ($publist | len) .Params.cvMaxLen) }}
+		<h2>Recent Publications </h2>
+	{{else}}
+		<h2>Publications</h2>
+	{{end}}
 	<ul>
-	{{ range ( where .Site.RegularPages.ByDate.Reverse "Section" "publications" ) }}
+	{{ range first .Params.cvMaxLen $publist }}
 		 {{ partial "publications/item" .}}
 	{{ end }}
 	</ul>
+	{{ if (gt ( $publist | len) .Params.cvMaxLen) }}
+		<a href='{{ "publications" | relURL }}'>(see all)</a>
+	{{ end }}
 	<h2>Talks</h2>
+	{{ $talklist := (where .Site.RegularPages.ByDate.Reverse "Section" "talks") }}
 	<ul>
-	{{ range ( where .Site.RegularPages.ByDate.Reverse "Section" "talks" ) }}
+	{{ range first .Params.cvMaxLen $talklist }}
 		 {{ partial "talks/item" .}}
 	{{ end }}
 	</ul>
+	{{ if (gt ( $publist | len) .Params.cvMaxLen) }}
+		<a href='{{ "talks" | relURL }}'>(see all)</a>
+	{{end}}
 	{{ if (gt ($data.award | len ) 0) }}
 	<h2>Honors and Awards</h2>
 		<ul>
