@@ -17,6 +17,7 @@ paginate = 10
   accentColor = "#FD3519"
 	mainSections = []
 #	rendererSafe = true
+  math = true
 
 [params.sidebar]
 	backgroundImage = "/images/sidebar.jpg"
@@ -66,3 +67,13 @@ paginate = 10
 	title = "CV"
 	url = "/cv/"
 	weight = -90
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+

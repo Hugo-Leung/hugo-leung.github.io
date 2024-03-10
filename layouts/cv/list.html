@@ -80,7 +80,7 @@
 		{{ range $data.award }}
 		<li>
 			{{ if .url }}
-				<a href="{{ .url }}"}}>{{ .name }}, {{ .org }}, {{ .year }}</a>
+				<a href="{{ .url }}">{{ .name }}, {{ .org }}, {{ .year }}</a>
 			{{ else }}
 				{{ .name }}, {{ .org }}, {{ .year }}
 			{{ end }}
