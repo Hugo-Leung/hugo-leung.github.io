@@ -1,5 +1,6 @@
 # My Personal webpage
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![Deploy Hugo site to Pages](https://github.com/Hugo-Leung/hugo-leung.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/Hugo-Leung/hugo-leung.github.io/actions/workflows/hugo.yml)
 
 Website sources for my personal webpage
 The content under `content/` is license under CC-BY-NC-ND-4.0
