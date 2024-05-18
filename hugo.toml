@@ -7,7 +7,7 @@ paginate = 10
 
 [params.intro]
 	main = "Hi, I am Ching&nbsp;Him Leung"
-	sub = "Graduate student at University of Illinois Urbana-Champaign"
+	sub = "Hall C Postdoc at Jefferson Lab"
 
 [taxonomies]
   tag = "tags"
