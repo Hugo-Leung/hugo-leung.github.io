@@ -11,7 +11,7 @@ projectUrl: https://www.phy.anl.gov/mep/drell-yan/
 
 SeaQuest is a fixed-target experiment at Fermilab that measure the dimuon production from interaction of the 120 GeV proton beam on various targets.
 
-I main work at SeaQuest is to extract the $\sigma_{pd}/2\sigma_{pp}$ Drell-Yan cross section ratio from the entire dataset.
+My main work at SeaQuest is to extract the $\sigma_{pd}/2\sigma_{pp}$ Drell-Yan cross section ratio from the entire dataset.
 The cross section ratio is particular useful in probing the light sea-quark asymmetry in the proton. At the leading-order,
 the Drell-Yan process involves the annihilation of a quark and antiquark from the two colliding hadrons. 
 {{< figure src="/images/DY.svg" width=500px >}}
