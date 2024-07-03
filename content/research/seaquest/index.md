@@ -25,4 +25,4 @@ I have also worked on the extracting the charmonium production cross section fro
 Unlike the Drell-Yan process which is mostly sensitive to the quark and antiquarks distributions, the charmonium production is also sensitive to the gluon distribution. At leading-order processes such as quark-antiquark annihilation and gluon fusion will contribute to charmonium production.
 {{< figure src="/images/ccbar.svg" width=800px >}}
 The same mass spectrum decomposition procedure is also used in the charmonium analysis.
-Some preliminary results can be found [here]({{< ref "publications/2022-dis.md" >}}).
+Some results can be found [here]({{< ref "publications/2024-jpsi.md" >}}).
