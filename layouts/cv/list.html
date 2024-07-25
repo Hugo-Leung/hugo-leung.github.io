@@ -1,6 +1,8 @@
 {{ partial "header" .}}
 {{ $file := .Params.cvdata }}
-{{ $data := getJSON $file}}
+
+{{ $data := index .Site.Data "CV" }}
+
 
   <h1 id="title"> {{ .Title }}</h1>
 	{{ .Content }}
