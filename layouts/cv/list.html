@@ -1,7 +1,7 @@
 {{ partial "header" .}}
 {{ $file := .Params.cvdata }}
 
-{{ $data := index .Site.Data "CV" }}
+{{ $data := index .Site.Data $file }}
 
 
   <h1 id="title"> {{ .Title }}</h1>
