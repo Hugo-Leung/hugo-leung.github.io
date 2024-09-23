@@ -3,7 +3,13 @@ languageCode = 'en-us'
 title = 'Ching Him Leung'
 theme = "personal-web"
 copyright="Ching Him Leung"
-paginate = 10
+
+
+
+[pagination]
+	disableAliases = false
+	pagerSize = 10
+	path = 'page'
 
 [params.intro]
 	main = "Hi, I am Ching&nbsp;Him Leung"
