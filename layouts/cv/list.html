@@ -4,7 +4,7 @@
 {{ $data := index .Site.Data $file }}
 
 
-  <h1 id="title"> {{ .Title }}</h1>
+  <h1 id="title"> {{ .Title }}</h1>{{ if (isset .Params "filename") }} <a href="{{ .Params.filename }}">[Download full CV]</a>{{ end }}
 	{{ .Content }}
 	{{ if and ($data.employment) (gt ($data.employment | len ) 0) }}
 		<h2>Employment</h2>
