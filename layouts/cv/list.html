@@ -52,7 +52,7 @@
 		{{ end }}
 	{{ end }}
 	</p></ul>
-	{{ $publist := (where .Site.RegularPages.ByDate.Reverse "Section" "publications") }}
+	{{ $publist := (where (.Site.RegularPages.ByParam "jobDate").Reverse "Section" "publications") }}
 	{{ if (gt ($publist | len) .Params.cvMaxLen) }}
 		<h2>Recent Publications </h2>
 	{{else}}
@@ -66,8 +66,12 @@
 	{{ if (gt ( $publist | len) .Params.cvMaxLen) }}
 		<a href='{{ "publications" | relURL }}'>(see all)</a>
 	{{ end }}
-	<h2>Talks</h2>
-	{{ $talklist := (where .Site.RegularPages.ByDate.Reverse "Section" "talks") }}
+	{{ $talklist := (where (.Site.RegularPages.ByParam "jobDate").Reverse "Section" "talks") }}
+	{{ if (gt ($talklist | len) .Params.cvMaxLen) }}
+		<h2>Recent Talks</h2>
+	{{else}}
+		<h2>Talks</h2>
+	{{end}}
 	<ul>
 	{{ range first .Params.cvMaxLen $talklist }}
 		 {{ partial "talks/item" .}}
