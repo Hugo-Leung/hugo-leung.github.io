@@ -43,6 +43,11 @@ copyright="Ching Him Leung"
 	h1 = 'Bummer!'
   p = "It seems that this page doesn't exist."
 
+[params.KaTeX]
+	version = "0.16.28"
+	css_integrity = "sha384-Wsr4Nh3yrvMf2KCebJchRJoVo1gTU6kcP05uRSh5NV3sj9+a8IomuJoQzf3sMq4T"
+	js_integrity = "sha384-+W9OcrYK2/bD7BmUAk+xeFAyKp0QjyRQUCxeU31dfyTt/FrPsUgaBTLLkVf33qWt"
+	auto_render_integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh"
 
 [menu]
 
