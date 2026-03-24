@@ -1,8 +1,7 @@
 {{ partial "header" .}}
 {{ $file := .Params.cvdata }}
 
-{{ $data := index .Site.Data $file }}
-
+{{ $data := index hugo.Data $file }}
 
   <h1 id="title"> {{ .Title }}</h1>{{ if (isset .Params "filename") }} <a href="{{ .Params.filename }}">[Download full CV]</a>{{ end }}
 	{{ .Content }}
