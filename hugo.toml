@@ -1,5 +1,5 @@
 baseURL = 'https://hugo-leung.github.io/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Ching Him Leung'
 theme = "personal-web"
 copyright="Ching Him Leung"
@@ -44,10 +44,10 @@ copyright="Ching Him Leung"
   p = "It seems that this page doesn't exist."
 
 [params.KaTeX]
-	version = "0.16.45"
-	css_integrity = "sha384-UA8juhPf75SzzAMA/4fo3yOU7sBJ0om7SCD2GHq0fZqZco6tr1UCV7nUbk9J90JM"
-	js_integrity = "sha384-Tt7wBxLKwSzFVRET4O4U9H6v8MNaQ/CjN2FMP4xFm0ErrFu6aNqoonRVW5W40iGI" 
-	auto_render_integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz"
+	version = "0.17.0"
+	css_integrity = "sha384-vlBdW0r3AcZO/HboRPznQNowvexd3fY8qHOWkBi5q7KGgqJ+F48+DceybYmrVbmB"
+	js_integrity = "sha384-AtrdNsnxl/75rvBneBVH7DtOvCxSVahR2zWqle1coBKd8DEmLoviqNeJSx64gNAs"
+	auto_render_integrity = "sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz"
 
 [menu]
 
