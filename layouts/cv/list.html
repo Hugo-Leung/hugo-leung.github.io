@@ -3,7 +3,9 @@
 
 {{ $data := index hugo.Data $file }}
 
-  <h1 id="title"> {{ .Title }}</h1>{{ if (isset .Params "filename") }} <a href="{{ .Params.filename }}">[Download full CV]</a>{{ end }}
+  <h1 id="title"> {{ .Title }}</h1>
+  {{ if (isset .Params "filename_cv") }} <a href="{{ .Params.filename_cv }}">[Download full CV]</a>{{ end }}  
+  {{ if (isset .Params "filename_resume") }} <a href="{{ .Params.filename_resume }}">[Resume]</a>{{ end }}
 	{{ .Content }}
 	{{ if and ($data.employment) (gt ($data.employment | len ) 0) }}
 		<h2>Employment</h2>

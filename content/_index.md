@@ -1,14 +1,12 @@
 +++
 title = 'About me'
-date = 2023-11-11T14:43:24-06:00
+date = 2026-08-12T15:29:44.949Z
 +++
 
-I am currently a Hall C Postdoctoral Fellow at Jefferson Lab. 
-At Jefferson Lab, I have been deeply involved in the GEM detector for the SBS GEp experiment in Hall A, together with the users, we reconfigured the GEM detector setup for the next experiment. 
-I am also involved in the LAD experiment in Hall C, commissioning and leading the analysis of the GEM detector. With these experience, I am now leading the testing of different micropattern gaseous detectors in high rate environment in Hall C.
-I have also continued to develop my research interest in exploring the partonic structure of nucleons, studying the potential of the proposed SoLID experiment on the polarized sea quark distributions.
+Hi, I’m Ching Him Leung, a Hall C Postdoctoral Fellow at Jefferson Lab. My work focuses on detector development and precision measurements that probe the partonic structure of nucleons.
 
-I have obtained my Ph.D in Physics from University of Illinois Urbana-Champaign in 2024.
-During my Ph.D, I worked on the [SeaQuest]({{< ref "/research/seaquest/index.md" >}}) experiment.
-The primary goal of the experiment is to study the light sea-quark asymmetry in the proton. 
-I have worked on the Drell-Yan cross section ratio analysis as well as the charmonium production cross section analysis.
+At Jefferson Lab, I play a important role in several ongoing Hall A and Hall C efforts. I have been deeply involved in the GEM tracking detector for the SBS GEp experiment in Hall A, where I worked with users to reconfigure the detector setup for upcoming runs. In Hall C, I contribute to the LAD experiment, leading the commissioning and analysis of its GEM detector systems. Building on this experience, I now lead tests of micropattern gaseous detectors in high‑rate environments to support future experiments.
+
+My broader research aims to understand the partonic structure of nucleons, including studies related to the proposed SoLID experiment, especially its potential to explore polarized sea‑quark distributions
+
+I earned my Ph.D. in Physics from the University of Illinois Urbana‑Champaign in 2024, where I worked on the [SeaQuest]({{< ref "/research/seaquest/index.md" >}}) experiment. My doctoral research focused on measuring the light sea‑quark asymmetry in the proton using Drell‑Yan and charmonium production. I contributed to analyses of the Drell‑Yan cross‑section ratio, charmonium production, and Monte‑Carlo development, along with preparing internal analysis notes and presenting results within the collaboration. 
