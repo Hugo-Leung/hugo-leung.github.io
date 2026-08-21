@@ -1,5 +1,5 @@
 # My Personal webpage
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 [![Deploy Hugo site to Pages](https://github.com/Hugo-Leung/hugo-leung.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/Hugo-Leung/hugo-leung.github.io/actions/workflows/hugo.yml)
 
 Website sources for my personal webpage
@@ -32,6 +32,7 @@ hugo serve
 ```
 
 
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+[cc-by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/4.0/
+[cc-by-nc-nd-image]: https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
+[cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
+
