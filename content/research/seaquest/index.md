@@ -19,7 +19,7 @@ The leading-order cross section is given by
 $$ \frac{d\sigma_{DY}}{dx_{1}x_{2}} = \frac{4\pi\alpha^2}{9sx_{1}x_{2}} \sum_{q}e_{q}^{2} \left[f_{q/A}(x_{1})f_{\bar{q}/B}(x_{2})+f_{\bar{q}/A}(x_{1})f_{q/B}(x_{2})\right]$$
 With a forward spectrometer, the acceptance dedicates that $x_{1}$ is usually larger than $x_{2}$, hence the $\sigma_{pd}/2\sigma_{pp}$ cross section ratio can be approximated as
 $$ \frac{\sigma_{pd}}{2\sigma_{pp}}\approx \frac{1}{2}\left(1+\frac{\bar{d}(x_{2})}{\bar{u}(x_{2})}\right) $$
-One major challenge in the analysis is separating the Drell-Yan signal from the combinatorial background, for which I have implemented a new mass spectrum decomposition procedure using TFractionFitter. The results using this mass spectrum decomposition have been reported in [here]({{< ref "/publications/2023-longpaper.md" >}}) and [here]({{ ref "/publications/2025-dbar.md" }}).
+One major challenge in the analysis is separating the Drell-Yan signal from the combinatorial background, for which I have implemented a new mass spectrum decomposition procedure using TFractionFitter. The results using this mass spectrum decomposition have been reported in [here]({{< ref "/publications/2023-longpaper.md" >}}) and [here]({{< ref "/publications/2025-dbar.md" >}}).
 
 I have also worked on the extracting the charmonium production cross section from $p+p$ and $p+d$ interaction.
 Unlike the Drell-Yan process which is mostly sensitive to the quark and antiquarks distributions, the charmonium production is also sensitive to the gluon distribution. At leading-order processes such as quark-antiquark annihilation and gluon fusion will contribute to charmonium production.
