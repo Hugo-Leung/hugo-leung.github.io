@@ -4,25 +4,36 @@ description:  Thesis project
 date: "2023-11-21T10:02:54-06:00"
 jobDate: 2018-2023
 work: [SeaQuest]
-tags: [charmonium, Drell-Yan]
+tags: [SeaQuest, Drell-Yan, Charmonium, E906]
 thumbnail: seaquest/SeaQuest-logo.jpg 
 projectUrl: https://www.phy.anl.gov/mep/drell-yan/ 
 ---
 
-SeaQuest is a fixed-target experiment at Fermilab that measure the dimuon production from interaction of the 120 GeV proton beam on various targets.
 
-My main work at SeaQuest is to extract the $\sigma_{pd}/2\sigma_{pp}$ Drell-Yan cross section ratio from the entire dataset.
-The cross section ratio is particular useful in probing the light sea-quark asymmetry in the proton. At the leading-order,
-the Drell-Yan process involves the annihilation of a quark and antiquark from the two colliding hadrons. 
-{{< figure src="/images/DY.svg" width=500px >}}
-The leading-order cross section is given by
-$$ \frac{d\sigma_{DY}}{dx_{1}x_{2}} = \frac{4\pi\alpha^2}{9sx_{1}x_{2}} \sum_{q}e_{q}^{2} \left[f_{q/A}(x_{1})f_{\bar{q}/B}(x_{2})+f_{\bar{q}/A}(x_{1})f_{q/B}(x_{2})\right]$$
-With a forward spectrometer, the acceptance dedicates that $x_{1}$ is usually larger than $x_{2}$, hence the $\sigma_{pd}/2\sigma_{pp}$ cross section ratio can be approximated as
-$$ \frac{\sigma_{pd}}{2\sigma_{pp}}\approx \frac{1}{2}\left(1+\frac{\bar{d}(x_{2})}{\bar{u}(x_{2})}\right) $$
-One major challenge in the analysis is separating the Drell-Yan signal from the combinatorial background, for which I have implemented a new mass spectrum decomposition procedure using TFractionFitter. The results using this mass spectrum decomposition have been reported in [here]({{< ref "/publications/2023-longpaper.md" >}}) and [here]({{< ref "/publications/2025-dbar.md" >}}).
+### Overview
 
-I have also worked on the extracting the charmonium production cross section from $p+p$ and $p+d$ interaction.
-Unlike the Drell-Yan process which is mostly sensitive to the quark and antiquarks distributions, the charmonium production is also sensitive to the gluon distribution. At leading-order processes such as quark-antiquark annihilation and gluon fusion will contribute to charmonium production.
-{{< figure src="/images/ccbar.svg" width=800px >}}
-The same mass spectrum decomposition procedure is also used in the charmonium analysis.
-Some results can be found [here]({{< ref "publications/2024-jpsi.md" >}}).
+SeaQuest (E906) is a fixed-target experiment at Fermilab designed to measure high-mass dimuons produced in proton–nucleon interactions. Its primary goal is to investigate the flavor asymmetry of the proton’s light antiquark sea. By comparing dimuon production on hydrogen and deuterium targets, SeaQuest probes the ratio of $\bar{d}$ to $\bar{u}$ over a broad kinematic range. These measurements extend earlier observations of sea-quark flavor asymmetry into a region of higher Bjorken‑$x$, helping clarify the origin of nonperturbative structure in the proton.
+
+In addition to Drell–Yan production, SeaQuest collects a large sample of charmonium events. The resulting measurements of $J/\psi$ and $\psi(2S)$ production provide complementary sensitivity to gluon dynamics and quarkonium production mechanisms.
+
+
+
+### Drell–Yan Analysis
+My work on the Drell–Yan channel focused on extracting the cross-section ratio  
+$$
+\sigma(pd) / \left( 2 \, \sigma(pp) \right)
+$$
+which is directly connected to the $\bar{d}/\bar{u}$ flavor asymmetry in the proton. I performed the mass-spectrum decomposition needed to isolate the Drell–Yan signal from background contributions, using TFractionFitter-based techniques to separate dimuon sources across the full mass range. This included developing and validating the decomposition procedure, tuning fit constraints, and ensuring consistent behavior across all kinematic bins.
+{{< figure src="DY_csr.png" width=500px >}}
+
+I also contributed to Monte Carlo–related tasks, including implementing kinematic constraints in the generator and evaluating the systematic uncertainties associated with resolution smearing and model variations. These efforts supported the final extraction of the cross-section ratio over the full dataset. The results have been reported in [here]({{< ref "/publications/2023-longpaper.md" >}}) and [here]({{< ref "/publications/2025-dbar.md" >}}).
+
+
+
+### Charmonium Analysis
+Beyond the Drell–Yan channel, I worked on SeaQuest's measurement of charmonium production. This included extracting differential cross sections for both $J/\psi$ and $\psi(2S)$, performing mass-spectrum decomposition for signal separation, and validating fitting strategies across multiple kinematic regions. The analysis provides information on forward quarkonium production and helps test theoretical models such as NRQCD and color-evaporation approaches. Some results can be found [here]({{< ref "publications/2024-jpsi.md" >}}).
+{{< figure src="jpsi_cs.jpg" width=500px >}}
+
+## Summary
+
+My SeaQuest work spans both Drell–Yan and charmonium measurements, with contributions to mass-spectrum decomposition, Monte Carlo development, uncertainty evaluation, and internal documentation. These analyses play an important role in mapping the proton’s sea-quark structure and in providing complementary insights into quarkonium production at high Bjorken‑$x$.
