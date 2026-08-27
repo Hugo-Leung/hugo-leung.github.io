@@ -5,7 +5,7 @@ date: "2026-08-12T11:53:39-04:00"
 jobDate: 2024-present
 work: [LAD]
 tags: ["Jefferson Lab", "Hall C", "DIS", "LAD"]
-thumbnail: LAD/LAD_exp.png 
+thumbnail: lad/LAD_exp.png 
 projectUrl: 
 ---
 
