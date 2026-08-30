@@ -1,0 +1,39 @@
+<style>
+
+.pdf-fallback {
+  display: none;
+  text-align: center;
+  padding: 10px;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  /*background: #0073e6;*/
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Hide embed and show download prompt on screens smaller than 768px */
+@media screen and (max-width: 850px) {
+  .pdf-container embed {
+    display: none;
+  }
+  .pdf-fallback {
+    display: block;
+  }
+}
+
+</style>
+
+
+<div class="pdf-container">
+  <embed src="{{ .Get 0 }}" type="application/pdf" width="100%" height="600px">
+  <div class="pdf-fallback">
+    <a href="{{ .Get 0 }}" class="download-btn" download>Download PDF</a>
+  </div>
+</div>
