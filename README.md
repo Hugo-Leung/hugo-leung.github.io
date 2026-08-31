@@ -3,7 +3,7 @@
 [![Deploy Hugo site to Pages](https://github.com/Hugo-Leung/hugo-leung.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/Hugo-Leung/hugo-leung.github.io/actions/workflows/hugo.yml)
 
 Website sources for my personal webpage
-The content under `content/` is license under CC-BY-NC-ND-4.0
+The content under `content/` is license under CC-BY-NC-ND-4.0, unless otherwise specified.
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ The compiled HTML files will be stored in the `public` folder.
 
 Instead of building static HTML files, you can also start a Hugo development server with live reload:
 ```bash
-hugo serve
+hugo server
 ```
 
 
