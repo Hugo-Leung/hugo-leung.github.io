@@ -27,6 +27,9 @@
 		 "url": "https://physics.illinois.edu/people/honors-and-awards/graduate-awards"}
 	],
 	"skill": [
-		"C++", "SQL", "Python", "Linux", "Apptainer"	
+		"Programming: Python, C++, SQL",
+		"Data Analysis: ROOT, Pandas, SciPy, Numpy",
+		"Modeling: Monte Carlo methods, statistical analysis, regression, uncertainty quantification",
+		"Systems: Git, Apptainer, Linux, HPC"
 	]
 }
