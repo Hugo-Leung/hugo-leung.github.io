@@ -1,4 +1,4 @@
-{{ $katexCSS := resources.Get "node_modules/katex/dist/katex.css" | fingerprint}}
+{{ $katexCSS := resources.Get "node_modules/katex/dist/katex.min.css" | fingerprint}}
 {{ $katexJS := resources.Get "node_modules/katex/dist/katex.min.js" | fingerprint}}
 {{ $katexAutoRenderJS := resources.Get "node_modules/katex/dist/contrib/auto-render.min.js" | fingerprint}}
 
