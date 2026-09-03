@@ -14,3 +14,5 @@ hugo.linux
 
 #Windows metadata files
 *Zone.Identifier
+
+/node_modules/
