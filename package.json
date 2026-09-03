@@ -1,4 +1,12 @@
 {
+  "name": "hugo-leung.github.io",
+  "description": "Ching Him Leung personal website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hugo-Leung/hugo-leung.github.io.git"
+  },
+  "author": "Ching Him Leung",
+  "license": "CC-BY-NC-ND-4.0",
   "dependencies": {
     "katex": "^0.18.5"
   }
