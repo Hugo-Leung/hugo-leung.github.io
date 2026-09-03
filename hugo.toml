@@ -98,6 +98,6 @@ copyright="Ching Him Leung"
   target = "assets/node_modules"
 
   [[module.mounts]]
-  source = "node_modules/katex/dist/"
-  target = "static/node_modules/katex/dist/"
+  source = "node_modules/katex/dist/fonts/"
+  target = "static/node_modules/katex/dist/fonts"
 
