@@ -21,11 +21,11 @@ In addition to Drell–Yan production, SeaQuest collects a large sample of charm
 ### Drell–Yan Analysis
 My work on the Drell–Yan channel focused on extracting the cross-section ratio  
 $$
-\sigma(pd) / \left( 2 \, \sigma(pp) \right)
+\sigma_{pd} /  2 \sigma_{pp} 
 $$
 which is directly connected to the $\bar{d}/\bar{u}$ flavor asymmetry in the proton. I performed the mass-spectrum decomposition needed to isolate the Drell–Yan signal from background contributions, using TFractionFitter-based techniques to separate dimuon sources across the full mass range. This included developing and validating the decomposition procedure, tuning fit constraints, and ensuring consistent behavior across all kinematic bins.
 
-{{< figure src="DY_csr.png" width=500px alt="Measured pd/2pp Drell-Yan cross section ratio as a function of x2 compared with different PDFs" caption="Measured $\sigma(pd) / \left( 2 \sigma(pp) \right)$ Drell-Yan cross section ratio from SeaQuest compared calculations using CJ22 and NNPDF4.0." >}}
+{{< figure src="DY_csr.png" width=500px alt="Measured pd/2pp Drell-Yan cross section ratio as a function of x2 compared with different PDFs" caption="Measured $\sigma_{pd} /  2 \sigma_{pp}$ Drell-Yan cross section ratio from SeaQuest compared calculations using CJ22 and NNPDF4.0." >}}
 
 I also contributed to Monte Carlo–related tasks, including implementing kinematic constraints in the generator and evaluating the systematic uncertainties associated with resolution smearing and model variations. These efforts supported the final extraction of the cross-section ratio over the full dataset. The results have been reported in [here]({{< ref "/publications/2023-longpaper.md" >}}) and [here]({{< ref "/publications/2025-dbar.md" >}}).
 
