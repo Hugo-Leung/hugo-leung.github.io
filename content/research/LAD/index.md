@@ -18,7 +18,7 @@ The LAD experiment in Hall C performs tagged deep inelastic scattering (DIS) on 
 
 The recoil‑proton detection system consists of refurbished scintillator planes arranged to provide wide angular acceptance for backward‑moving protons. These planes work together with two large-area GEM tracking detectors placed close to the target for precise vertexing and trajectory reconstruction. The combined system enables efficient identification of spectator protons and suppression of background in high‑rate conditions.
 
-{{< figure src="LAD_hall.jpeg" width=700px >}}
+{{< figure src="LAD_hall.jpeg" width=700px alt="Picture of the LAD experiment setup" caption="Picture of the detectors in Hall C." >}}
 
 ### Detector Operations and Tracking Support
 
