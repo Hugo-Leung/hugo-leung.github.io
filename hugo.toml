@@ -101,3 +101,6 @@ copyright="Ching Him Leung"
   source = "node_modules/katex/dist/fonts/"
   target = "static/node_modules/katex/dist/fonts"
 
+  [[module.mounts]]
+  source = "node_modules/@fortawesome/fontawesome-free/webfonts"
+  target = "static/node_modules/@fortawesome/fontawesome-free/webfonts"

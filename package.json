@@ -8,6 +8,7 @@
   "author": "Ching Him Leung",
   "license": "CC-BY-NC-ND-4.0",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.3.1",
     "katex": "^0.18.5"
   }
 }
