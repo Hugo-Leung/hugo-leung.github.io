@@ -104,3 +104,8 @@ copyright="Ching Him Leung"
   [[module.mounts]]
   source = "node_modules/@fortawesome/fontawesome-free/webfonts"
   target = "static/node_modules/@fortawesome/fontawesome-free/webfonts"
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-88FDMJCQ1E'
+
