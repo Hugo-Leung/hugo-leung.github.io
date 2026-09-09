@@ -1,3 +1,4 @@
 [submodule "themes/personal-web"]
 	path = themes/personal-web
 	url = https://github.com/Hugo-Leung/personal-web.git
+	branch = dev
