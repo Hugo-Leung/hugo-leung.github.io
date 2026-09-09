@@ -14,10 +14,18 @@ Linux:
 sudo snap install hugo
 ```
 
+### Theme 
+The theme [personal-web](https://github.com/Hugo-Leung/personal-web) is installed as a git submodule
+```bash
+git submodule update --init --recursive
+```
+
+Katex and fontawesome are used in the theme and are installed via npm
+```bash
+npm install
+```
 
 ## Build website
-
-Install NPM dependencies
 
 Compile website:
 ```bash
