@@ -3,7 +3,7 @@ locale = 'en-us'
 title = 'Ching Him Leung'
 theme = "personal-web"
 copyright="Ching Him Leung"
-
+enableRobotsTXT = true
 
 
 [pagination]
