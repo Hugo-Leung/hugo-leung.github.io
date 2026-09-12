@@ -16,3 +16,5 @@ hugo.linux
 *Zone.Identifier
 
 /node_modules/
+#macOS metadata files
+.DS_Store

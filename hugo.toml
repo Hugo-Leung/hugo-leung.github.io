@@ -16,14 +16,13 @@ enableRobotsTXT = true
 	sub = "Hall C Postdoc at Jefferson Lab"
 
 [taxonomies]
-  tag = "tags"
+	tag = "tags"
 
 [params]
-  breadcrumb = true
-  accentColor = "#FD3519"
+	breadcrumb = true
+	accentColor = "#FD3519"
 	mainSections = []
-#	rendererSafe = true
-  math = true
+  	math = true
 
 [params.sidebar]
 	backgroundImage = "/images/sidebar.jpg"
@@ -41,7 +40,7 @@ enableRobotsTXT = true
 [params.notFound]
 	image = "/images/404.svg"
 	h1 = 'Bummer!'
-  p = "It seems that this page doesn't exist."
+	p = "It seems that this page doesn't exist."
 
 [menu]
 
@@ -74,38 +73,38 @@ enableRobotsTXT = true
 	weight = -90
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)']]
+	[markup.goldmark]
+		[markup.goldmark.extensions]
+			[markup.goldmark.extensions.passthrough]
+				enable = true
+				[markup.goldmark.extensions.passthrough.delimiters]
+					block = [['\[', '\]'], ['$$', '$$']]
+					inline = [['\(', '\)']]
 
 [sitemap]
-  changeFreq = ''
-  disable = false
-  filename = 'sitemap.xml'
-  priority = -1
+	changeFreq = ''
+	disable = false
+	filename = 'sitemap.xml'
+	priority = -1
 
 [module]
-  [[module.mounts]]
-  source = "static"
-  target = "static"
+	[[module.mounts]]
+		source = "static"
+		target = "static"
   
-  [[module.mounts]]
-  source = "node_modules/"
-  target = "assets/node_modules"
+	[[module.mounts]]
+		source = "node_modules/"
+		target = "assets/node_modules"
 
-  [[module.mounts]]
-  source = "node_modules/katex/dist/fonts/"
-  target = "static/node_modules/katex/dist/fonts"
+	[[module.mounts]]
+		source = "node_modules/katex/dist/fonts/"
+		target = "static/node_modules/katex/dist/fonts"
 
-  [[module.mounts]]
-  source = "node_modules/@fortawesome/fontawesome-free/webfonts"
-  target = "static/node_modules/@fortawesome/fontawesome-free/webfonts"
+	[[module.mounts]]
+		source = "node_modules/@fortawesome/fontawesome-free/webfonts"
+		target = "static/node_modules/@fortawesome/fontawesome-free/webfonts"
 
 [services]
-  [services.googleAnalytics]
-    id = 'G-88FDMJCQ1E'
+	[services.googleAnalytics]
+		id = 'G-88FDMJCQ1E'
 
