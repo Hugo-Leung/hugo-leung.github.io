@@ -44,6 +44,19 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6
+
+      - name: Get npm cache directory
+        id: npm-cache-dir
+        run: echo "dir=$(npm config get cache)" >> ${GITHUB_OUTPUT}
+      - name: Restore Node modules cache
+        uses: actions/cache/restore@v6
+        id: restore-npm-cache
+        with:
+          path: ${{ steps.npm-cache-dir.outputs.dir }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
@@ -59,6 +72,12 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: ./public
+      - name: Save Node modules cache
+        uses: actions/cache/save@v6
+        id: save-npm-cache
+        with:
+          path: ${{ steps.npm-cache-dir.outputs.dir }}
+          key: ${{ steps.restore-npm-cache.outputs.cache-primary-key }}
 
   # Deployment job
   deploy:
