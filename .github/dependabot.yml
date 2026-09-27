@@ -22,4 +22,4 @@ updates:
           - "version-update:semver-patch"
           - "version-update:semver-major"
     ignore:
-      - dependency-name: "personal-web"
+      - dependency-name: "themes/personal-web"
