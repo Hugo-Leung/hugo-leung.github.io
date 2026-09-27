@@ -14,11 +14,10 @@ updates:
     schedule:
       interval: "weekly"
     allow:
-    - dependency-type: "all"
-      update-types:
-        - "version-update:semver-minor"
-        - "version-update:semver-patch"
-        - "version-update:semver-major"
+      - dependency-type: "all"
+        update-types:
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+          - "version-update:semver-major"
     ignore:
-    dependency-name: 
-      - "themes/personal-web"
+      - dependency-name: "themes/personal-web"
