@@ -27,6 +27,7 @@ enableRobotsTXT = true
 [params.sidebar]
 	backgroundImage = "/images/sidebar.jpg"
 	logo = "/images/profile.jpg"
+	gradientOverlay="to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.01)"
 
 [params.social]
 	github = "https://github.com/Hugo-Leung"
