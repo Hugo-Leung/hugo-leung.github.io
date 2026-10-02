@@ -69,7 +69,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci --omit=dev || true"
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
