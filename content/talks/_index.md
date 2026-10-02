@@ -1,5 +1,5 @@
 ---
 title: Conference Presentations
-description: 
+description:
 date: "2023-11-23T18:40:23-06:00"
 ---

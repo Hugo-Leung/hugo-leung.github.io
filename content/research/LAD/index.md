@@ -1,18 +1,17 @@
 ---
-title:  Large Acceptance Detector (LAD) in Hall C
+title: Large Acceptance Detector (LAD) in Hall C
 description: Study of neutron structure modification using tagged spectator protons.
 date: "2026-08-12T11:53:39-04:00"
 jobDate: 2024-present
 work: [LAD]
 tags: ["Jefferson Lab", "Hall C", "DIS", "LAD"]
-thumbnail: lad/LAD_exp.png 
-projectUrl: 
+thumbnail: lad/LAD_exp.png
+projectUrl:
 ---
 
 ### Overview
 
 The LAD experiment in Hall C performs tagged deep inelastic scattering (DIS) on deuterium to study how the structure of neutrons is modified inside the nuclear medium. By detecting backward spectator protons in coincidence with the scattered electron, the experiment isolates interactions on high‑momentum, highly‑virtual neutrons—configurations closely tied to short‑range correlations (SRCs). This approach provides a controlled way to probe the origin of the EMC effect and to test models of nucleon modification in nuclei.
-
 
 ### LAD Detector Stack
 
