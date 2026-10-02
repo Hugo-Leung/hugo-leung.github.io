@@ -1,0 +1,44 @@
+{
+  "version": "0.2",
+  "language": "en-US",
+  "ignoreRegExpList": [
+    "/\\\\\\([\\s\\S]*?\\\\\\)/g", // Inline LaTeX delimited by \( and \).
+    "/\\\\\\[[\\s\\S]*?\\\\\\]/g", // Display LaTeX delimited by \[ and \].
+    "/\\$\\$[\\s\\S]*?\\$\\$/g", // Display math delimited by $$.
+    "/(?<!\\$)\\$(?!\\$)[\\s\\S]*?(?<!\\$)\\$(?!\\$)/g" // Inline math delimited by single $.
+  ],
+  "words": [
+    "antiquark",
+    "Bjorken",
+    "CFNS",
+    "charmonium",
+    "chleung",
+    "chromodynamics",
+    "Compostela",
+    "dbar",
+    "dimuon",
+    "dimuons",
+    "Dilutely",
+    "disfavoured",
+    "Drell",
+    "etal",
+    "Fermilab",
+    "jpsi",
+    "Leung",
+    "longpaper",
+    "micropattern",
+    "Nagai",
+    "NNPDF",
+    "nonperturbative",
+    "nonrelativistic",
+    "NRQCD",
+    "nucl",
+    "partonic",
+    "partons",
+    "quarkonium",
+    "SeaQuest",
+    "Soper",
+    "TFractionFitter",
+    "vertexing"
+  ]
+}

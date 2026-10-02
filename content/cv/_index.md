@@ -6,5 +6,3 @@ cvMaxLen = 5
 filename_cv = "CV_public.pdf"
 filename_resume = "resume_chleung.pdf"
 +++
-
-
