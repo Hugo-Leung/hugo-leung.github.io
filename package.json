@@ -17,7 +17,7 @@
     "prettier": "^3.9.9"
   },
   "scripts": {
-    "prepare": "husky",
+        "prepare": "node -e \"if (process.env.NODE_ENV !== 'production' && require('node:fs').existsSync('node_modules/husky')) require('node:child_process').execSync('husky', { stdio: 'inherit' })\"",
     "format:content": "prettier --write \"content/**/*.md\"",
     "check:content:format": "prettier --check \"content/**/*.md\"",
     "spellcheck:content": "cspell \"content/**/*.md\""
