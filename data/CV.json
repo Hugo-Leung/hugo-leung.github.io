@@ -1,35 +1,42 @@
 {
-	"education" : [
-		{"school": "University of Illinois Urbana-Champaign",
-		 "degree": "Ph.D Physics",
-		 "year" : "2018-2024",
-		 "description": "- Thesis: [Probing Parton Distributions in Proton using Drell-Yan and Charmonium Production with 120GeV Proton Beam at Fermilab](https://hdl.handle.net/2142/124206)\n- Advisor: Prof. Jen-Chieh Peng"
-			},
-		{"school": "The Chinese University of Hong Kong",
-		 "degree": "BSc Physics",
-		 "year" : "2014-2018"
-			}
-	],
-	"employment" : [
-		{"company": "Jefferson Lab",
-		 "title" : "Hall C postdoc",
-		 "year" : "2024 - current"
-		}
-	],
-	"award" :[
-		{"name": "Felix T. Adler Award",
-		 "org": "Univ. of Illinois",
-		 "year": "2022",
-		 "url": "https://physics.illinois.edu/people/honors-and-awards/graduate-awards"},
-		{"name": "Maurice Goldhaber Research Scholar Award in Nuclear Physics",
-		 "org": "Univ. of Illinois",
-		 "year": "2020",
-		 "url": "https://physics.illinois.edu/people/honors-and-awards/graduate-awards"}
-	],
-	"skill": [
-		"Programming: Python, C++, SQL",
-		"Data Analysis: ROOT, Pandas, SciPy, Numpy",
-		"Modeling: Monte Carlo methods, statistical analysis, regression, uncertainty quantification",
-		"Systems: Git, Apptainer, Linux, HPC"
-	]
+  "education": [
+    {
+      "school": "University of Illinois Urbana-Champaign",
+      "degree": "Ph.D Physics",
+      "year": "2018-2024",
+      "description": "- Thesis: [Probing Parton Distributions in Proton using Drell-Yan and Charmonium Production with 120GeV Proton Beam at Fermilab](https://hdl.handle.net/2142/124206)\n- Advisor: Prof. Jen-Chieh Peng"
+    },
+    {
+      "school": "The Chinese University of Hong Kong",
+      "degree": "BSc Physics",
+      "year": "2014-2018"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Jefferson Lab",
+      "title": "Hall C postdoc",
+      "year": "2024 - current"
+    }
+  ],
+  "award": [
+    {
+      "name": "Felix T. Adler Award",
+      "org": "Univ. of Illinois",
+      "year": "2022",
+      "url": "https://physics.illinois.edu/people/honors-and-awards/graduate-awards"
+    },
+    {
+      "name": "Maurice Goldhaber Research Scholar Award in Nuclear Physics",
+      "org": "Univ. of Illinois",
+      "year": "2020",
+      "url": "https://physics.illinois.edu/people/honors-and-awards/graduate-awards"
+    }
+  ],
+  "skill": [
+    "Programming: Python, C++, SQL",
+    "Data Analysis: ROOT, Pandas, SciPy, Numpy",
+    "Modeling: Monte Carlo methods, statistical analysis, regression, uncertainty quantification",
+    "Systems: Git, Apptainer, Linux, HPC"
+  ]
 }

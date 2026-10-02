@@ -1,0 +1,7 @@
+if [ "${GITHUB_ACTIONS:-}" = "true" ]; then
+	exit 0
+fi
+
+if git diff --cached --name-only --diff-filter=ACMR | grep -Eq '^content/.+\.md$'; then
+	npx lint-staged
+fi

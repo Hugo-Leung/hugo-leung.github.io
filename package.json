@@ -7,7 +7,25 @@
   },
   "author": "Ching Him Leung",
   "license": "CC-BY-NC-ND-4.0",
-  "dependencies": {
-    "personal-web": "file:themes/personal-web"
+  "workspaces": [
+    "packages/hugoautogen"
+  ],
+  "devDependencies": {
+    "cspell-cli": "^10.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.9.9"
+  },
+  "scripts": {
+        "prepare": "node -e \"if (process.env.NODE_ENV !== 'production' && require('node:fs').existsSync('node_modules/husky')) require('node:child_process').execSync('husky', { stdio: 'inherit' })\"",
+    "format:content": "prettier --write \"content/**/*.md\"",
+    "check:content:format": "prettier --check \"content/**/*.md\"",
+    "spellcheck:content": "cspell \"content/**/*.md\""
+  },
+  "lint-staged": {
+    "content/**/*.md": [
+      "prettier --write",
+      "cspell"
+    ]
   }
 }
