@@ -1,0 +1,10 @@
+{
+  "sum": "ecda7d97d84c2154",
+  "dependencySources": {
+    "dependencies": {
+      "@fortawesome/fontawesome-free": "personal-web",
+      "katex": "personal-web"
+    },
+    "devDependencies": {}
+  }
+}
