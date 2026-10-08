@@ -24,6 +24,7 @@
   },
   "lint-staged": {
     "content/**/*.md": [
+      "node scripts/update-lastmod.js",
       "prettier --write",
       "cspell"
     ]
