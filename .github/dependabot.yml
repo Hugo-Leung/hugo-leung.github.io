@@ -10,9 +10,8 @@ updates:
     schedule:
       interval: "weekly"
   - package-ecosystem: "npm"
-    directories:
-      - "/"
-      - "/themes/personal-web"
+    # The root npm workspace includes packages/hugoautogen from hugo mod npm pack.
+    directory: "/"
     schedule:
       interval: "weekly"
     allow:
@@ -21,5 +20,3 @@ updates:
           - "version-update:semver-minor"
           - "version-update:semver-patch"
           - "version-update:semver-major"
-    ignore:
-      - dependency-name: "themes/personal-web"
