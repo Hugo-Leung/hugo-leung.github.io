@@ -12,6 +12,8 @@ updates:
   - package-ecosystem: "npm"
     # The root npm workspace includes packages/hugoautogen from hugo mod npm pack.
     directory: "/"
+    exclude-paths:
+      - "packages/hugoautogen"
     schedule:
       interval: "weekly"
     allow:
