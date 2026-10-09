@@ -17,7 +17,7 @@ updates:
     schedule:
       interval: "weekly"
     allow:
-      - dependency-type: "all"
+      - dependency-type: "production"
         update-types:
           - "version-update:semver-minor"
           - "version-update:semver-patch"
