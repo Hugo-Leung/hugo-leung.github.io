@@ -6,12 +6,24 @@ on:
   pull_request:
     branches: ["main"]
     paths: &site_paths
-      - "**"
       - "!.github/**"
       - "!.gitignore"
+      - "!.husky/**"
       - "!README.md"
       - "!LICENSE"
+      - "!cspell.json"
       - ".github/workflows/hugo.yml"
+      - ".gitmodules"
+      - "archetypes/**"
+      - "content/**"
+      - "data/**"
+      - "hugo.*"
+      - "layouts/**"
+      - "package-lock.json"
+      - "package.json"
+      - "packages/**"
+      - "static/**"
+      - "themes/**"
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
