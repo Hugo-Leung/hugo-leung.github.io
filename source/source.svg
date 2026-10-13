@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
-   sodipodi:docname="newicon.svg"
+   sodipodi:docname="source.svg"
    inkscape:export-filename="favicon_512.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -27,7 +27,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="1"
-     inkscape:cx="285.5"
+     inkscape:cx="285"
      inkscape:cy="256"
      inkscape:window-width="1728"
      inkscape:window-height="1051"
@@ -39,20 +39,7 @@
      inkscape:export-bgcolor="#ffffff00"
      showborder="false" />
   <defs
-     id="defs1">
-    <rect
-       x="21"
-       y="165"
-       width="470"
-       height="335"
-       id="rect3" />
-    <rect
-       x="35"
-       y="173"
-       width="456"
-       height="179"
-       id="rect2" />
-  </defs>
+     id="defs1" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"

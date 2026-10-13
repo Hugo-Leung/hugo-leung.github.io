@@ -24,8 +24,8 @@ SCRATCH_DIR=$(mktemp -d)
 # Ensure the temp directory is removed even if the script crashes mid-run
 trap 'rm -rf "$SCRATCH_DIR"' EXIT
 
-echo "-> Converting source SVG to clean, plain favicon.svg using Inkscape..."
-inkscape --export-plain-svg --export-filename="$OUTPUT_DIR/favicon.svg" "$INPUT_SVG"
+echo "-> Converting source SVG to clean, plain favicon.svg using scour..."
+scour -i "$INPUT_SVG" -o "$OUTPUT_DIR/favicon.svg" --enable-viewboxing --enable-id-stripping --enable-comment-stripping --shorten-ids --indent=none
 
 echo "-> Generating raw assets..."
 
