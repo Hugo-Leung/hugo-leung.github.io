@@ -23,6 +23,7 @@ enableRobotsTXT = true
 	accentColor = "#FD3519"
 	mainSections = []
   	math = true
+	enableEmojiFont = false
 
 [params.sidebar]
 	backgroundImage = "/images/sidebar.jpg"
