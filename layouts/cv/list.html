@@ -41,7 +41,7 @@
 	{{ range ( where .Site.RegularPages.ByDate.Reverse "Section" "research" ) }}
 	   <li>
 		 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-		 <p>{{ .Params.description}}</p>
+		 <p>{{ .Description}}</p>
 		 </li>
 	{{ end }}
 	</ul>
