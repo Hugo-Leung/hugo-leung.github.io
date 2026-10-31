@@ -12,7 +12,7 @@ enableRobotsTXT = true
 	path = 'page'
 
 [params.intro]
-	main = "Hi, I am Ching&nbsp;Him Leung"
+	main = "Hi, I am Ching Him Leung"
 	sub = "Hall C Postdoc at Jefferson Lab"
 
 [taxonomies]
@@ -27,7 +27,7 @@ enableRobotsTXT = true
 
 [params.sidebar]
 	backgroundImage = "/images/sidebar.jpg"
-	logo = "/images/profile.jpg"
+	logo = "/images/profile.webp"
 	gradientOverlay="to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)"
 
 [params.social]
