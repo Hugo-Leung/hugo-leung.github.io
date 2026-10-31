@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.3.1",
-    "katex": "^0.19.0"
+    "katex": "^0.19.1"
   },
   "devDependencies": {},
   "name": "hugoautogen",
