@@ -1,12 +1,13 @@
 ---
 title: Measurements of Angular Distributions of Drell-Yan Dimuons in \(p+p\) and \(p+d\) Interactions at 120 GeV/\(c\)
-description:
+description: "Preprint on the angular distribution of Drell-Yan Dimuons"
 date: "2026-02-02T17:24:33-05:00"
 jobDate: "2026-01-23"
 work: [SeaQuest]
 tags: [Drell-Yan]
 citation: "K. Nagai et al (SeaQuest Collaboration), arXiv: 2601.16410 [nucl-ex] (2026)"
 projectUrl: https://arxiv.org/abs/2601.16410
+lastmod: "2026-11-01T00:41:27.713Z"
 ---
 
 ### Abstract

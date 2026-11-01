@@ -1,12 +1,13 @@
 ---
 title: 'Measurement of flavor asymmetry of light-quark sea in the proton with Drell-Yan dimuon production in \(p+p\) and \(p+d\) collisions at 120 GeV'
-description:
+description: "Detailed discussion on the flavor asymmetry measurement utilizing different analysis methods."
 date: "2023-09-06"
 jobDate: "2023-09-06"
 work: [SeaQuest]
 tags: [Drell-Yan]
 citation: "J. Dove et al. (SeaQuest Collaboration), Phys. Rev. C 108, 035202 (2023), arXiv:2212.12160 [hep-ph]"
 projectUrl: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.108.035202
+lastmod: "2026-11-01T00:41:27.713Z"
 ---
 
 ### Abstract

@@ -1,12 +1,13 @@
 ---
 title: The asymmetry of antimatter in the proton
-description:
+description: Report on the light sea-quark asymmetry measurement from SeaQuest.
 date: "2021-02-24"
 jobDate: "2021-02-24"
 work: [SeaQuest]
 tags: [Drell-Yan]
 citation: "J. Dove et al. (SeaQuest Collaboration), Nature 590, [Erratum: Nature 604, E26 (2022)], 561 (2021), arXiv:2103.04024[hep-ph]."
 projectUrl: https://www.nature.com/articles/s41586-021-03282-z
+lastmod: "2026-11-01T00:41:27.713Z"
 ---
 
 ### Abstract

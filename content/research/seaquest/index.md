@@ -1,12 +1,13 @@
 ---
 title: SeaQuest
-description: Thesis project
+description: Study of the light sea quark asymmetry in the proton using the Drell-Yan process.
 date: "2023-11-21T10:02:54-06:00"
 jobDate: 2018-2023
 work: [SeaQuest]
 tags: [SeaQuest, Drell-Yan, Charmonium, E906]
 thumbnail: seaquest/SeaQuest-logo.jpg
 projectUrl: https://www.phy.anl.gov/mep/drell-yan/
+lastmod: "2026-11-01T00:41:27.713Z"
 ---
 
 ### Overview
