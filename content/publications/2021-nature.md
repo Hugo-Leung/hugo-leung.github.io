@@ -7,7 +7,8 @@ work: [SeaQuest]
 tags: [Drell-Yan]
 citation: "J. Dove et al. (SeaQuest Collaboration), Nature 590, [Erratum: Nature 604, E26 (2022)], 561 (2021), arXiv:2103.04024[hep-ph]."
 projectUrl: https://www.nature.com/articles/s41586-021-03282-z
-lastmod: "2026-11-01T00:41:27.713Z"
+lastmod: "2026-11-05T16:31:19.078Z"
+math: false
 ---
 
 ### Abstract

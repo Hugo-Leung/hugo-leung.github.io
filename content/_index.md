@@ -1,8 +1,9 @@
 ---
 title: "About me"
 date: 2026-08-12T15:29:44.949Z
-lastmod: "2026-11-02T01:11:15.326Z"
+lastmod: "2026-11-05T16:31:19.078Z"
 description: "Personal website of Ching Him Leung, currently a Postdoctoral Fellow at Jefferson Lab. My research focuses on precision measurements that probe the partonic structure of nucleons."
+math: false
 ---
 
 Hi, I’m Ching Him Leung, a Hall C Postdoctoral Fellow at Jefferson Lab. My work focuses on detector development and precision measurements that probe the partonic structure of nucleons.

@@ -7,6 +7,8 @@ work: [LAD]
 tags: ["Jefferson Lab", "Hall C", "DIS", "LAD"]
 thumbnail: lad/LAD_exp.png
 projectUrl:
+math: false
+lastmod: "2026-11-05T16:31:19.078Z"
 ---
 
 ### Overview
