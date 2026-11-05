@@ -3,6 +3,9 @@
   <meta name='description' content='{{ .Description }}' />
   <meta name='theme-color' content='{{- .Site.Params.accentColor | default "black" -}}' />
 
+  {{ with .Site.Params.sidebar.backgroundImage }}
+  <link rel="preload" href="{{ . | absURL }}" as="image" fetchpriority="high" media="(min-width: 768px)">
+  {{ end }}
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
