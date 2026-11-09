@@ -1,7 +1,7 @@
 ---
 title: "About me"
 date: 2026-08-12T15:29:44.949Z
-lastmod: "2026-11-05T16:31:19.078Z"
+lastmod: "2026-11-09T23:20:18.742Z"
 description: "Personal website of Ching Him Leung, currently a Postdoctoral Fellow at Jefferson Lab. My research focuses on precision measurements that probe the partonic structure of nucleons."
 math: false
 ---
@@ -13,3 +13,5 @@ At Jefferson Lab, I play a important role in several ongoing Hall A and Hall C e
 My broader research aims to understand the partonic structure of nucleons, including studies related to the proposed SoLID experiment, especially its potential to explore polarized sea‑quark distributions
 
 I earned my Ph.D. in Physics from the University of Illinois Urbana‑Champaign in 2024, where I worked on the [SeaQuest]({{< ref "/research/seaquest/index.md" >}}) experiment. My doctoral research focused on measuring the light sea‑quark asymmetry in the proton using Drell‑Yan and charmonium production. I contributed to analyses of the Drell‑Yan cross‑section ratio, charmonium production, and Monte‑Carlo development, along with preparing internal analysis notes and presenting results within the collaboration.
+
+I am currently exploring opportunities in both academia and industry that leverage my experience in experimental physics, statistical analysis, scientific computing, and large-scale data analysis.
