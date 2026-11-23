@@ -7,14 +7,15 @@ on:
     branches: ["main"]
     paths: &site_paths
       - "!.github/**"
+      - "!.gitattributes"
       - "!.gitignore"
       - "!.husky/**"
       - "!README.md"
       - "!LICENSE"
+      - "!archetypes/**"
       - "!cspell.json"
       - ".github/workflows/hugo.yml"
       - ".gitmodules"
-      - "archetypes/**"
       - "content/**"
       - "data/**"
       - "hugo.*"
