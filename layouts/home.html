@@ -1,11 +1,11 @@
-{{ partial "header" .}}
+{{- partial "header" . -}}
 
-{{ if .Site.Params.rendererSafe }}
-  <h1>{{ .Title }}</h1>
-{{ else }}
-  <h1>{{ .Title | markdownify }}</h1>
-{{ end}}
+{{- if .Site.Params.rendererSafe -}}
+  <h1>{{- .Title -}}</h1>
+{{- else -}}
+  <h1>{{- .Title | markdownify -}}</h1>
+{{- end -}}
 
-{{ .Content }}
+{{- .Content -}}
 
-{{ partialCached "footer" .}}
+{{- partialCached "footer" . -}}

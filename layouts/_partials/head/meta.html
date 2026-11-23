@@ -3,9 +3,9 @@
   <meta name='description' content='{{ .Description }}' />
   <meta name='theme-color' content='{{- .Site.Params.accentColor | default "black" -}}' />
 
-  {{ with .Site.Params.sidebar.backgroundImage }}
+  {{- with .Site.Params.sidebar.backgroundImage -}}
   <link rel="preload" href="{{ . | absURL }}" as="image" fetchpriority="high" media="(min-width: 768px)">
-  {{ end }}
+  {{- end -}}
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -17,4 +17,4 @@
 <meta name="google-site-verification" content="0zv7gSEWW1QvTqjBK5O_E8uo870qpstiOUkWLQ9WuSI" />
 
 
-{{ hugo.Generator }}
+{{- hugo.Generator -}}

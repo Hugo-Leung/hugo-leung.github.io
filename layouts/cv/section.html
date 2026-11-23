@@ -1,0 +1,98 @@
+{{- partial "header" . -}}
+{{- $file := .Params.cvdata -}}
+
+{{- $data := index hugo.Data $file -}}
+
+  <h1 id="title"> {{- .Title -}}</h1>
+  {{- if (isset .Params "filename_cv") }} <a href="{{- .Params.filename_cv -}}">[Download full CV]</a>{{ end }}
+  {{ if (isset .Params "filename_resume") }} <a href="{{- .Params.filename_resume -}}">[Resume]</a>{{ end -}}
+	{{- .Content -}}
+	{{- if and ($data.employment) (gt ($data.employment | len ) 0) -}}
+		<h2>Employment</h2>
+		<ul>
+		{{- range $data.employment -}}
+			<li>
+			<h3>{{- .year }}, {{ .company -}} </h3>
+			<p><b>{{- .title -}}</b></p>
+			{{- if .description -}}
+				{{- .description | markdownify -}}
+			{{- end -}}
+			</details>
+		{{- end -}}
+		</ul>
+	{{- end -}}
+
+	{{- if (gt ($data.education | len ) 0) -}}
+		<h2>Education</h2>
+		<ul>
+		{{- range $data.education -}}
+			<li>
+			<h3>{{- .degree }}, {{ .school }}, {{ .year -}} </h3>
+			{{- if .description -}}
+				{{- .description | markdownify -}}
+			{{- end -}}
+			</li>
+		{{- end -}}
+		</ul>
+	{{- end -}}
+
+	<h2>Research</h2>
+	<ul>
+	{{- range ( where .Site.RegularPages.ByDate.Reverse "Section" "research" ) -}}
+	   <li>
+		 <h4><a href="{{- .Permalink -}}">{{- .Title -}}</a></h4>
+		 <p>{{- .Description -}}</p>
+		 </li>
+	{{- end -}}
+	</ul>
+	{{- if (gt ($data.skill | len) 0) -}}
+	<h2>Skills</h2>
+	<ul>
+		{{- range $data.skill -}}
+			<li>{{- . -}}</li>
+		{{- end -}}
+	{{- end -}}
+	</ul>
+	{{- $publist := (where (.Site.RegularPages.ByParam "jobDate").Reverse "Section" "publications") -}}
+	{{- if (gt ($publist | len) .Params.cvMaxLen) -}}
+		<h2>Recent Publications </h2>
+	{{- else -}}
+		<h2>Publications</h2>
+	{{- end -}}
+	<ul>
+	{{- range first .Params.cvMaxLen $publist -}}
+		 {{- partial "publications/item" . -}}
+	{{- end -}}
+	</ul>
+	{{- if (gt ( $publist | len) .Params.cvMaxLen) -}}
+		<a href='{{- "publications" | relURL -}}'>(see all)</a>
+	{{- end -}}
+	{{- $talklist := (where (.Site.RegularPages.ByParam "jobDate").Reverse "Section" "talks") -}}
+	{{- if (gt ($talklist | len) .Params.cvMaxLen) -}}
+		<h2>Recent Talks</h2>
+	{{- else -}}
+		<h2>Talks</h2>
+	{{- end -}}
+	<ul>
+	{{- range first .Params.cvMaxLen $talklist -}}
+		 {{- partial "talks/item" . -}}
+	{{- end -}}
+	</ul>
+	{{- if (gt ( $publist | len) .Params.cvMaxLen) -}}
+		<a href='{{- "talks" | relURL -}}'>(see all)</a>
+	{{- end -}}
+	{{- if (gt ($data.award | len ) 0) -}}
+	<h2>Honors and Awards</h2>
+		<ul>
+		{{- range $data.award -}}
+		<li>
+			{{- if .url -}}
+				<a href="{{- .url -}}">{{- .name }}, {{ .org }}, {{ .year -}}</a>
+			{{- else -}}
+				{{- .name }}, {{ .org }}, {{ .year -}}
+			{{- end -}}
+		</li>
+		{{- end -}}
+		</ul>
+	{{- end -}}
+{{- partialCached "footer" . -}}
