@@ -105,6 +105,7 @@ jobs:
       - name: Save Node modules cache
         uses: actions/cache/save@v6
         id: save-npm-cache
+        if: github.event_name != 'pull_request'
         with:
           path: ${{ steps.npm-cache-dir.outputs.dir }}
           key: ${{ steps.restore-npm-cache.outputs.cache-primary-key }}
