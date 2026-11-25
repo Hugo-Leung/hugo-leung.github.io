@@ -70,7 +70,7 @@ Build and minify the website:
 hugo --minify --baseURL "https://hugo-leung.github.io/"
 ```
 
-The generated website is written to `public/`. 
+The generated website is written to `public/`.
 
 [cc-by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/4.0/
 [cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
